@@ -109,7 +109,8 @@ subject to an additional IP rights grant found at http://polymer.github.io/PATEN
           <iron-pages attr-for-selected="data-route" selected="{{route}}">
 
             <section data-route="login">
-                <ant-login></ant-login>
+                <ant-login id="login"
+                  success-redirect="home"></ant-login>
             </section>
 
             <section data-route="home">
